@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <style>
+body, html {
+    height: 100%;
+}
+.parent{
+    background-image: url("images/heman2.png");
+    height: 100%;
+
+
+    background-size: cover;
+}
+</style>
+
+
+
+
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/form.css">
+    <title>FORM</title>
+  </head>
+  <body>
+    <div class="parent">
+      <div class="career">
+      <h1>career objective</h1>
+      <input type="text" name="career"id="career" placeholder="career objective">
+        <label for="career"></label>
+      </div>
+
+
+      <div class="details">
+      <h1>personal details</h1>
+      <input type="text" name="name"id="name" placeholder="enter name"><br>
+      <input type="text" name="mobile"id="mobile" placeholder="enter mobile no"><br>
+      <input type="text" name="email"id="email" placeholder="enter email id"><br>
+      <input type="text" name="address"id="address" placeholder="enter address"><br>
+      </div>
+
+   <!--education details-->
+      <div class="details">
+      <h1>Graduation details</h1>
+
+      <input type="text" name="address"id="institute" placeholder="enter institute"><br>
+
+
+        <label for="branch">  </label>
+          <select id="branch" placeholde="select course">
+            <option>select course</option>
+            <option>cse</option>
+            <option>ece</option>
+            <option>eee</option>
+            <option>mechanical</option>
+            <option>civil</option>
+            <option>csit</option>
+          </select>
+
+  <input type="text" name="address"id="year" placeholder="enter year of passing"><br>
+
+  <input type="text" name="address"id="year2" placeholder="enter percentage"><br>
+
+      </div>
+
+<!-- inter details-->
+
+      <div class="details">
+      <h1>Intermediate details</h1>
+      <input type="text" name="name"id="name1" placeholder="enter college name">
+        <label for="branch1">  </label>
+          <select id="branch1" placeholde="select course">
+            <option>select group</option>
+            <option>mpc</option>
+            <option>bipc</option>
+            <option>cec</option>
+            <option>hec</option>
+            <option>mec</option>
+          </select>
+
+            <input type="text" name="address"id="year1" placeholder="enter year of passing"><br>
+
+
+
+
+
+  <input type="text" name="name"id="name2" placeholder="enter percentage">
+
+      </div>
+      <!-- school details-->
+
+            <div class="details1">
+            <h1>school details</h1>
+            <input type="text" name="name"id="name3" placeholder="enter school name">
+              <label for="branch2">  </label>
+                <select id="branch2" placeholde="select course">
+                  <option>select medium</option>
+                  <option>english</option>
+                  <option>telugu</option>
+                  <option>other</option>
+
+                </select>
+
+                <input type="text" name="name"id="year3" placeholder="enter year of passing">
+
+        <input type="text" name="name"id="name4" placeholder="enter your percentage">
+        </div>
+  <!--skills-->
+        <div class="skills">
+        <h1>Skills</h1>
+        <input type="text" name="career"id="career2" placeholder="skills">
+          <label for="career"></label>
+          <center> <button type="submit" name="button" id="sub" onclick="submitData()"> submit </button></center>
+        </div>
+
+</div>
+
+  </body>
+
+
+  <script type="text/javascript"src="js/main.js">
+
+  </script>
+</html>

@@ -1,0 +1,34 @@
+
+img{
+  width:100px;
+  height:100px;
+}
+H1{
+  background-color:#2C3E50;
+}
+.parent{
+  width:100%;
+ height:100%;
+  display:flex;
+  flex-wrap: wrap;
+  margin:1%;
+  background-color:orange;
+}
+.left{
+
+  width:41%;
+  height:100%;
+  border:2px solid blue;
+  padding:4%;
+  margin:1%;
+  background-color: lightpink;
+}
+
+.right{
+  width:41%;
+  height:80%;
+  border:2px solid blue;
+  padding:1%;
+  margin:1%;
+  background-color: lightpink;
+}
